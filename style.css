@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    text-align: left;
+    margin: 100px 500px;
+}
+.content > label{
+    padding-bottom: 10px;
+}
+input[type=text] {
+    width: 500px;
+    padding: 10px 15px;
+    color:darkgray;
+    font-size: 15px;
+}
+.container > h1{
+    text-align: center;
+}
+.container > p{
+    padding-bottom: 30px;
+}
+
+button{
+    background-color:dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px
+}
+#hasil > p {
+    padding-top: 20px;
+}
